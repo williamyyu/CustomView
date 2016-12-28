@@ -2,6 +2,7 @@
 <RelativeLayout
     android:id="@+id/activity_main"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customview="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,4 +16,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
+
+    <com.willy.customview.CustomView
+        style="@style/MyCustomizeStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        customview:attr_one="attr one from xml"/>
 </RelativeLayout>

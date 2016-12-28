@@ -6,6 +6,35 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="attr_one">attr one from theme</item>
+        <item name="attr_two">attr two from theme</item>
+        <item name="attr_three">attr three from theme</item>
+        <item name="attr_four">attr four from theme</item>
+        <item name="attr_five">attr five from theme</item>
+
+        <item name="CustomViewStyle">@style/ThemeCustomizeStyle</item>
+    </style>
+
+    <!--defStyleAttr-->
+    <style name="ThemeCustomizeStyle">
+        <item name="attr_one">attr one from defStyleAttr</item>
+        <item name="attr_two">attr two from defStyleAttr</item>
+        <item name="attr_three">attr three from defStyleAttr</item>
+    </style>
+
+    <!--style in AttributeSet (XML)-->
+    <style name="MyCustomizeStyle">
+        <item name="attr_one">attr one from style in xml</item>
+        <item name="attr_two">attr two from style in xml</item>
+    </style>
+
+    <!--defStyleRes-->
+    <style name="DefaultStyle">
+        <item name="attr_one">attr one from defStyleRes</item>
+        <item name="attr_two">attr two from defStyleRes</item>
+        <item name="attr_three">attr three from defStyleRes</item>
+        <item name="attr_four">attr four from defStyleRes</item>
     </style>
 
 </resources>

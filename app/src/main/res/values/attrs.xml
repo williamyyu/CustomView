@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="CustomViewStyle" format="reference"/>
+
+    <!--defStyleRes: same as styles's DefaultStyle-->
+    <style name="DefaultStyleInAttrs">
+        <item name="attr_one">attr one from defStyleRes (DefaultStyleInAttrs)</item>
+        <item name="attr_two">attr two from defStyleRes (DefaultStyleInAttrs)</item>
+        <item name="attr_three">attr three from defStyleRes (DefaultStyleInAttrs)</item>
+        <item name="attr_four">attr four from defStyleRes (DefaultStyleInAttrs)</item>
+    </style>
+
+    <declare-styleable name="CustomizeAttributes">
+        <attr name="attr_one" format="string"/>
+        <attr name="attr_two" format="string"/>
+        <attr name="attr_three" format="string"/>
+        <attr name="attr_four" format="string"/>
+        <attr name="attr_five" format="string"/>
+    </declare-styleable>
+</resources>
