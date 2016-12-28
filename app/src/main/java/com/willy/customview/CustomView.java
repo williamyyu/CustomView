@@ -3,8 +3,6 @@ package com.willy.customview;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
-import android.graphics.Paint;
-import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -13,14 +11,12 @@ import android.view.View;
  * Created by Willy on 2016/12/27.
  */
 
+/*
+reference:
+    http://www.cnblogs.com/angeldevil/p/3479431.html
+    http://www.jianshu.com/p/61b79e7f88fc/
+*/
 public class CustomView extends View {
-
-    private String mMainText = "Main Text";
-    private int mMainTextSize;
-    private String mSubText = "Sub Text";
-
-    private Rect mTextBound;
-    private Paint mPaint;
 
     /* Call by programing code */
     public CustomView(Context context) {
@@ -79,6 +75,7 @@ public class CustomView extends View {
             }
         }
 
+        // reference: http://blog.csdn.net/Monicabg/article/details/45014327
         typedArray.recycle();
     }
 
